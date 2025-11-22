@@ -1,0 +1,37 @@
+# Default ignored files
+### Java / Spring Boot ###
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+### Maven ###
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+out/
+
+### VS Code ###
+.vscode/
+
+### Logs ###
+logs/
+*.log
+
+### OS junk ###
+.DS_Store
+Thumbs.db
+
+### Docker ###
+docker-data/
+*.pid
+
+### Generated gRPC & Protobuf ###
+**/build/
+**/generated/
